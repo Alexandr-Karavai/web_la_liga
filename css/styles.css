@@ -1,0 +1,206 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: #1E967F;
+    line-height: 1.4em;
+    margin: auto;
+}
+
+.header {
+    padding: 2px;
+    background: #7FB1D9;
+}
+
+.headItem {
+    
+        display: inline-block;
+        padding: 5px;
+        /*margin: 10px 10px 10px 20px;*/
+        width: 600px;
+}
+
+.searchComponent {
+    margin: 10px 10px 20px 50px;
+    padding: 20px;
+}
+
+#search, #searchBtn {
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: inset 0 0 3px #000710;    
+    font-size: 20px;
+    width: 350px;
+    height: 30px
+}
+
+#searchBtn {
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    margin: 0px 0px 0px 20px;
+    background: green;
+}
+
+#logo {
+    width: 700px;
+
+}
+
+#mainMenu {
+    width: 500px;
+    margin: 10px 30px 0px 30px;
+    padding: 20px;
+
+
+}
+.menuButton {
+    margin: 0px 3px;
+    padding: 1em;
+    background: #d6d5d5; 
+    box-shadow: 6px 6px #989898, 12px 12px #6c6666;
+}
+
+
+.clubSpain, .actClubSH {
+    text-align: center;
+    height: 450px;
+    background-color: #CFCFDB;
+    padding: 2px 20px 30px 20px;
+    box-shadow:
+     inset 0 -3px 3px #000710,
+     inset 0 3px 3px #000710;
+
+}
+#clubTitle {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.blockClub{
+    display: inline-block;
+    box-shadow: inset 0 0 20px #777777;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 370px;
+    width: 270px;
+    border-width: 4px 4px 4px 4px;
+    border-style: solid;
+    background: whitesmoke;
+    margin: 10px 30px 0px 30px;
+    /*margin: 50px auto 50px auto;*/
+}
+
+.blockClub:hover {
+
+    height: 370px;
+    width: 270px;
+    margin: 0px 40px 10px 20px;
+    /*margin-left: -10px;*/
+
+}
+
+.headClub {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 60px;
+    background: red;
+    padding: 15px; 
+   
+}
+
+.actClub {
+    text-align: center;
+    height: 450px;
+    background: #7FB1D9;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+    text-align: center;
+    text-shadow: 5px 5px 7px brown
+}
+
+h1:hover {
+    color: brown;
+}
+
+h1:active {
+    color: yellow;
+}
+
+#fcbFig {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+
+#harryP {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#harryP::first-letter {
+    color: blue;
+    font-size: 150%;
+
+}
+
+#harryImg {
+    vertical-align: text-bottom;
+}
+
+
+
+#frame, #fieldC {
+    border: 4px solid red;
+    /*border-style: solid;
+    border-color: red;*/
+}
+
+ul {
+    margin: 2px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+
+
+th {
+    padding: 5px 10px;
+    letter-spacing: 0.1em;
+    /*border-bottom: 2px solid black;*/
+    border-top: 4px solid black;
+    text-transform: uppercase;
+}
+
+tr {
+    background-color: #1898B8;
+}
+
+tr:hover {
+    background-color: #289147;
+}
+
+td {
+    empty-cells: hide;
+}
+
+
+a {
+     width: 300px; 
+
+}
