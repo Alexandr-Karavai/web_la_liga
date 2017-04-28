@@ -1,0 +1,23 @@
+th {
+    padding: 5px 10px;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid black;
+    border-top: 4px solid black;
+    text-transform: uppercase;
+}
+
+tr {
+    background-color: #1898B8;
+}
+
+tr:hover {
+    background-color: #289147;
+}
+
+td {
+    empty-cells: hide;
+}
+
+.clubTD {
+    padding: 3px 10px 3px 10px;
+}
