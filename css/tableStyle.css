@@ -1,12 +1,33 @@
-.mainTableInLaLiga {
+#tablePlayer, #tableTopClub {
     border-collapse: collapse;
 }
+
+.headLineInTable, .mainTableInLaLiga {
+    padding: 3px;
+}
+.headLineInTable {
+    height: 20%;
+}
+
+.mainTableInLaLiga {
+    height: 70%;
+    padding: 0px 0px 0px 170px;
+}
+#playerLaLiga, #topClub, .tableLa {
+    width: 50%;
+    float: left;
+    text-align:center;
+
+}
+
 th {
     padding: 5px 10px;
     letter-spacing: 0.1em;
     border-bottom: 2px solid black;
     border-top: 4px solid black;
     text-transform: uppercase;
+    background-color: #1873B1;
+
 }
 
 tr {
