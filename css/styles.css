@@ -5,61 +5,26 @@ body {
     background-color: #1E967F;
     line-height: 1.4em;
     margin: auto;
+    width: auto;
 }
 
-.clubSpain, .actClubSH {
-    text-align: center;
-    height: 450px;
-    background-color: #CFCFDB;
-    padding: 2px 20px 30px 20px;
-    box-shadow:
-     inset 0 -3px 3px #000710,
-     inset 0 3px 3px #000710;
 
-}
-#clubTitle {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: white;
-}
-
-.blockClub{
-    display: inline-block;
-    box-shadow: inset 0 0 20px #777777;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0px;
-    height: 370px;
-    width: 270px;
-    border-width: 4px 4px 4px 4px;
-    border-style: solid;
-    background: whitesmoke;
-    margin: 10px 30px 0px 30px;
-    /*margin: 50px auto 50px auto;*/
-}
-
-.blockClub:hover {
+/*.blockClub:hover {
 
     height: 370px;
     width: 270px;
     margin: 0px 40px 10px 20px;
-    /*margin-left: -10px;*/
+    /*margin-left: -10px;
 
-}
+}*/
 
-.headClub {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    height: 60px;
-    background: red;
-    padding: 15px; 
-   
-}
+
+
+
 
 .actClub {
     text-align: center;
-    height: 450px;
+    height: 550px;
     background: #7FB1D9;
 }
 
@@ -106,6 +71,10 @@ h1:active {
     vertical-align: text-bottom;
 }
 
+/*.headLineInTable {
+    display: inline-block;
+    
+}*/
 
 
 #frame, #fieldC {
@@ -114,22 +83,12 @@ h1:active {
     border-color: red;*/
 }
 
-ul {
-    margin: 2px;
+img {
+    width: 200px;
+    height: 200px;
 }
 
-li {
-    display: inline-block;
-
-}
-
-h2 {
-    color: rgb(47, 74, 137)
-}
-
-
-
-a {
-     width: 300px; 
-
+#logoID {
+    width: 640px;
+    height: 150px; 
 }
