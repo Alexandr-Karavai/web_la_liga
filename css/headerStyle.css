@@ -1,5 +1,7 @@
 .header {
-    padding: 2px;
+    width: auto;
+    height: 150px;
+    padding: 10px;
     background: #7FB1D9;
 }
 
