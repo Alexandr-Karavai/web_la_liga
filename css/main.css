@@ -1,0 +1,25 @@
+
+.btn {
+  color: #f2f2f2;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 2px;
+  border-style: none;
+  background: #00a8ff;
+}
+
+.btn:hover {
+  background: #31b9ff;
+}
+
+#clubB {
+    margin-top: 150px;
+}
+#clubB img {
+  height: 256px;
+  width: 256px;
+}
+
+a {
+  color: #333;
+}
