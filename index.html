@@ -3,36 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Site</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"> 
-    <link href="css/tableStyle.css" rel="stylesheet" type="text/css"> 
-    <link href="css/headerStyle.css" rel="stylesheet" type="text/css"> 
+    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/tableStyle.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/headerStyle.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <script src="scripts/jquery-3.2.1.min.js"></script>
-    <script src="scripts/script.js"></script>
 </head>
     <body>
-        <div class="header">
-            <div class="headItem" id="logo">
-                <img id="logoID" src="images/2000px-Liga_BBVA.svg"/>
-            </div>
-            <div class="headItem">
-                <div class="searchComponent">
-                    <input type="text" id="search" placeholder="Поиск по сайту" />
-                    <button id="searchBtn">Найти</button>
-                    <!--<input id="searchBtn" type="button" value="" />-->
+        <div class="nav_bar">
+            <div class="container">
+                <div class="nav_bar_head">
+                    <img src="images/2000px-Liga_BBVA.svg">
                 </div>
-                <div id="mainMenu">
-                <ul>
-                    <li class="menuButton" id="menuMain"><a href="index.html">Main</a></li>
-                    <li class="menuButton"><a id="menuInfo" href="second_page.html">Info</a></li>
-                    <li class="menuButton"><a href="#">Clubs</a></li>
-                    <li class="menuButton"><a href="#">Tickets</a></li>
-                    <li class="menuButton"><a href="#">Maps</a></li>
-                    <li class="menuButton" id="lastBtn"><a href="second_page.html">About</a></li>
-                </ul>
+                <div class="nav_bar_li">
+                    <ul class="nav_bar_right">
+                        <li><a class="active" href="#">Intro</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Players</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a class="btn sign_up">Sign Up</a></li>
+                     </ul>
                 </div>
             </div>
         </div>
-        <div class="clubSpain">
+        <div id="clubB">
+          <div class="container">
+            <div class="row centered">
+              <h2>The most popular footbal club in spain</h2>
+              <div class="col-4">
+                <h4>FC Barcelona</h4>
+                <img src="images/fc-barcelona-256.png">
+              </div>
+              <div class="col-4">
+                <h4>FC Real Madrid</h4>
+                <img src="images/fc-real-madrid-logo.png">
+              </div>
+              <div class="col-4">
+                <h4>FC Atletico Madrid</h4>
+                <img src="images/fc-atletico-madrid-256.png">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="clubSpain">
             <div id="clubTitle">
                 <h2>The most popular footbal club in spain</h2>
             </div>
@@ -41,10 +56,7 @@
                         <h3 id="linkFCB">FC Barcelona</h3>
                     </div>
                     <div class="bodyClub">
-                        <!--<figure id="fcbemblem">-->
                             <img src="images/fc-barcelona-256.png">
-                            <!--<figcaption id="fcbFig">Main emblem in FC Barcelona</figcaption>-->
-                        <!--</figure>-->
                     </div>
                 </div>
                 <div class="blockClub">
@@ -52,10 +64,7 @@
                         <h3 id="linkFCB">FC Real Madrid</h3>
                     </div>
                     <div class="bodyClub">
-                        <!--<figure id="fcbemblem">-->
                             <img src="images/fc-real-madrid-logo.png">
-                            <!--<figcaption id="fcbFig">Main emblem in FC Real Madrid</figcaption>-->
-                        <!--</figure>-->
                     </div>
                 </div>
                 <div class="blockClub">
@@ -63,26 +72,26 @@
                         <h3 id="linkFCB">FC Atletico Madrid</h3>
                     </div>
                     <div class="bodyClub">
-                        <!--<figure id="fcbemblem">-->
                             <img src="images/fc-atletico-madrid-256.png">
-                            <!--<figcaption id="fcbFig">Main emblem in FC Atletico Madrid</figcaption>-->
-                        <!--</figure>-->
+
                     </div>
                 </div>
-                <!--<div class="blockClub">
-                    <div class="headClub">
-                        <h3 id="linkFCB">FC Barcelona</h3>
-                    </div>
-                    <div class="bodyClub">
-                        <figure id="fcbemblem">
-                            <img src="images/fc_barcelona.png" width="200" height="200">
-                            <figcaption id="fcbFig">Main emblem in FC Barcelona</figcaption>
-                        </figure>
-                    </div>
-                </div>-->
         </div>
 <div class="actClub">
     <div class="description">
+        <p>Футбольный клуб «Барселона» (кат. Futbol Club Barcelona, исп. Fútbol Club Barcelona),
+            известен также как «Барса» (исп. и кат. Barça) — каталонский
+            профессиональный футбольный клуб из одноимённого города,
+            один из самых титулованных клубов в Испании и в мире.
+            Основан в 1899 году группой швейцарских, британских,
+            испанских и каталонских футболистов во главе с Жоаном Гампером.
+            Клуб стал одним из символов Каталонии, отсюда происходит и
+             девиз — Més que un club — «Больше, чем клуб». Поклонники
+             ФК «Барселона» также известны как «culés» (кулес). «Барселона» — самый
+             титулованный клуб в Испании по общему количеству
+             официальных трофеев — 67 (24 — титула чемпиона Испании,
+             28 — Кубков Испании, 14 — Суперкубков Испании,
+             2 — Кубка испанской лиги).</p>
     </div>
     <div class="photoDes">
     </div>
@@ -106,7 +115,7 @@
             <h2>Ла Лига: Турнирная Таблица</h2>
         </div>
     </div>
-    
+
     <div class="mainTableInLaLiga">
         <div class="tableLa">
             <table id="tablePlayer">
@@ -203,17 +212,17 @@
                     </tr>
                 </tbody>
             </table>
-        </div>  
+        </div>
     </div>
 </div>
 
         <h1>New test</h1>
-     
+
 <form action="second_page.html" method="get">
     <input type="checkbox" name="game" value="pc"/>PC
     <input type="checkbox" name="game" value="ps"/>PS4
     <input type="checkbox" name="game" value="xo"/>Xbox One
-    <input name="ok" type="submit" value="Ok"/> 
+    <input name="ok" type="submit" value="Ok"/>
 </form><br>
 
 
@@ -221,7 +230,7 @@
     <input type="radio" name="game" value="pc"/>PC
     <input type="radio" name="game" value="ps"/>PS4
     <input type="radio" name="game" value="xo"/>Xbox One
-    <input name="ok" type="submit" value="Ok"/> 
+    <input name="ok" type="submit" value="Ok"/>
 </form><br>
 
 <select>
@@ -245,13 +254,13 @@
 </fieldset>
 </form>
 
-<p id="harryP">Гарри Поттер (англ. «Harry Potter») — популярная серия романов 
-    английской писательницы <span>Джоан К. Роулинг.</span> Каждый из романов 
+<p id="harryP">Гарри Поттер (англ. «Harry Potter») — популярная серия романов
+    английской писательницы <span>Джоан К. Роулинг.</span> Каждый из романов
     описывает один год из жизни главного героя — мальчика-волшебника
      по имени Гарри Поттер. Все семь частей стали
-      бестселлерами и переведены на множество языков, в том числе 
-      на русский. Общий тираж книг составил более 300 миллионов 
-      экземпляров — больше, чем у какой-либо 
+      бестселлерами и переведены на множество языков, в том числе
+      на русский. Общий тираж книг составил более 300 миллионов
+      экземпляров — больше, чем у какой-либо
       другой серии детских книг. </p>
 
       <iframe id="frame" src="second_page.html" width="450" height="320" seamless></iframe>
@@ -259,7 +268,7 @@
 
         <address>
             <p><a href="mailto:karavai96-2010@mail.ru">karavai96-2010@mail.ru</a></p>
-            <p>&copy г.Минск</p>
-        </address>
+            <p>&copy  2017 Liga de Fútbol Profesional</p>
+        </address> -->
     </body>
 </html>
