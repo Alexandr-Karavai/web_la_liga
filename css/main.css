@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-.btn {
-  color: #f2f2f2;
+body {
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: "Lato";
+  font-size: 22px;
+}
+
+#my_navbar {
+  padding: 20px;
+}
+
+.navbar {
+  font-size: 16px;
+  background: #f2f2f2 !important;
+  box-shadow: 0 3px 4px #333;
+}
+
+.navbar-brand {
+  height: 60px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #f2f2f2;
+}
+
+.btn, .active {
+  color: #f2f2f2 !important;
   padding: 15px 25px;
   font-size: 18px;
   border-radius: 2px;
@@ -9,17 +41,90 @@
 }
 
 .btn:hover {
-  background: #31b9ff;
+  background: #31b9ff !important;
 }
 
-#clubB {
-    margin-top: 150px;
-}
-#clubB img {
-  height: 256px;
-  width: 256px;
+.active, .active:hover {
+  background: #f11f4b !important;
 }
 
 a {
-  color: #333;
+  color: #555 !important;
+}
+
+#wp {
+  padding-top: 130px;
+  padding-bottom: 40px;
+  background: #2ccce8;
+}
+
+#wp > .container > .row > h4 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+#wp > .conatainer > .row > .col-md-4 > h4 {
+  font-size: 44px;
+}
+
+#info {
+  background: url(../img/iniesta.jpg) no-repeat center top;
+  padding-top: 20px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+#info > .container > .row > .col-md-4 > h4 {
+  font-size: 32px;
+}
+
+#top_players {
+  padding-top: 30px;
+  background: #f2f2f2;
+}
+
+#top_players > .container >.row > .col-md-12 {
+  background: #e61541;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#top_players > .container >.row > .col-md-4 {
+  background: #8a4918;
+}
+
+#social {
+  color: #9c9c9c;
+  background: #2f2e30;
+  padding: 20px 0;
+  letter-spacing: 1.2em;
+}
+
+#social > .container > .row > .col-md-6 > i {
+  color: white !important;
+
+}
+
+.ft {
+  background: #00a8ff;
+  border-radius: 3px;
+  margin: 90px 0 0 0;
+}
+
+#footer {
+  padding: 30px 0 20px 0;
+  background: #e61541;
+}
+
+#footer > .container > .row > .col-md-4 {
+  font-size: 14px;
+  color: #f4f4f7;
 }
